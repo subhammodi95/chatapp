@@ -1,16 +1,21 @@
-# chat_app
+# Greetings Chat App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+Greetings is a chat application developed using Flutter and Firebase, featuring seamless integration with Google authentication. The app enables users to search for and chat with other users, create groups, make calls, and personalize their profiles.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+### User Interaction
+- **Search and Chat**: Users can search for different users and initiate chat conversations.
+- **Group Creation**: Users can create groups with individuals they have interacted with before, facilitating group conversations.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Communication
+- **Calling**: Users can call their friends directly through the app, provided their friends have updated their phone numbers in the application.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Profile Management
+- **Profile Customization**: Users can change their names and profile pictures, allowing for a personalized experience.
+
+## Technologies Used
+
+The application is built using Flutter, a versatile and powerful UI toolkit for crafting natively compiled applications for mobile, web, and desktop from a single codebase. Firebase serves as the backend, offering a comprehensive suite of services including real-time database, authentication, and cloud storage. Google authentication is integrated to provide a secure and easy sign-in experience for users.
